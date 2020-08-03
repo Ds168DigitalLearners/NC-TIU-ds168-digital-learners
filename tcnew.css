@@ -1,0 +1,47 @@
+fieldset{
+ border: 2px white solid;   
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-style: italic;
+    color: red;
+}
+.admis{
+    float: right;
+    padding-bottom: 40px;
+}
+.admis input[type=number],.reg input[type="number"]{
+     margin: 10px;
+    padding: 5px;
+    border: 0;
+    width: 240px;
+    outline: none;
+    padding-left: 5px;
+    text-align: left;
+    outline: none;
+    border: 2px white solid;
+    border-radius: 5px; 
+    
+}
+.box{
+    text-align:left;
+    position:relative;
+    padding: 0px;
+    margin:0px;
+    width: 1500px;
+}
+.box input[type="text"],.box input[type="number"],.box input[type="date"]{
+    margin: 10px;
+    padding: 5px;
+    border: 0;
+    width: 240px;
+    outline: none;
+    padding-left: 5px;
+    text-align: left;
+    outline: none;
+    border: 2px white solid;
+    border-radius: 5px;  
+}
