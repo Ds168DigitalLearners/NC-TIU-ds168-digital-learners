@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <title>TRANSFER CERTIFICATE</title>
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="tcnew.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+ </head>
+     <style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+    <body>
+    <!--Enter your code here-->
+        <div class="w3-top">
+  <div class="w3-bar w3-aqua w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="startpagenew.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Home</a>
+    <a href="loginnew.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Login</a>
+       <a href="Sign%20Upnew.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sign Up</a>
+    <a href="contactusnew.html" class="w3-bar-item w3-button w3-hide-small w3-sspadding-large w3-hover-white">Contact Us</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About Us</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="Sign%20Upnew.html" class="w3-bar-item w3-button w3-padding-large">Sign Up</a>
+    <a href="contactusnew.html" class="w3-bar-item w3-button w3-padding-large">Cotact Us</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">About</a>
+  </div>
+</div>
+        <!-- Header -->
+<header class="w3-container w3-black w3-center" style="padding:128px 16px">
+        <fieldset>
+        <h1 class="w3-margin w3-jumbo">Dr B R Ambedkar Institute of Technology</h1>
+            <h3 style="color: white">Transfer Certificate</h3>
+            <p class="admis">Admission Number:
+            <input type="number">
+            </p>
+            <p class="reg">Registration Number of candidate:
+            <input type="number"></p>
+        </fieldset><br><br>
+        <div>
+        <form action="action_page.php" class="box">
+        <label for="nameofpupil">1.Name of Pupil:</label>
+            <input type="text" placeholder="Name of Pupil" name="nameofpupil" required><br><br>
+        <label for="fathername">2.Father's Name:</label>
+            <input type="text" placeholder="Father'Name" name="fathername" required><br><br>
+        <label for="mothername">3.Mother's Name:</label>
+            <input type="text" placeholder="Mother'Name" name="mothername" required><br><br>
+        <label for="Nationality">4.Nationality:</label>
+            <input type="text" placeholder="Nationality" name="Nationality" required><br><br>
+        <label for="caste" onclick="function">5.Whether the student belongs toSC/ST/OBC: </label>
+           <label>
+    <input type="checkbox" class="radio" value="1" name="fooby[1][]" />Yes</label>
+            <label>
+    <input type="checkbox" class="radio" value="1" name="fooby[1][]" />No</label><br><br>
+            <label for="dob">6.Date Of Birth:</label>
+            <input type="date" placeholder="Select Date" required><br><br>
+              <label for="caste" onclick="function!">7.Whether the student is Failed: </label>
+           <label>
+    <input type="checkbox" class="radio" value="2" name="fooby[2][]" />Yes</label>
+            <label>
+    <input type="checkbox" class="radio" value="2" name="fooby[2][]" />No</label><br><br>
+            <label for="suboff">8.Subjects Offered</label>
+            <input type="text" placeholder="Subjects Offered" name="suboff" required><br><br>
+            <label>9.Class in which Pupil last studied:</label>
+            <input type="text" placeholder="Class in which Pupil last studied" name="" required><br><br>
+            <label for="caste" onclick="function2">10.Final examination last taken with result: </label>
+           <label>
+    <input type="checkbox" class="radio" value="3" name="fooby[3][]" />Yes</label>
+            <label>
+    <input type="checkbox" class="radio" value="3" name="fooby[3][]" />No</label><br><br>
+             <label for="caste" onclick="function">11.Qualified for promotion to thr next higher class: </label>
+           <label>
+    <input type="checkbox" class="radio" value="4" name="fooby[4][]" />Yes</label>
+            <label>
+    <input type="checkbox" class="radio" value="4" name="fooby[4][]" />No</label><br><br>
+             <label for="caste" onclick="function4">12.Pupil has paid All Dues of college: </label>
+           <label>
+    <input type="checkbox" checked="true" class="radio" value="5" name="fooby[5][]" />Yes</label><br><br>
+            <label for="date">13.Date on which pupil's name was stuck off the rolls of the college:</label>
+            <input type="date" name="date" required><br><br>
+            <label for="reason" onclick="function">14.Reason for Leaving college:</label>
+             <label>Course Completed:
+    <input type="checkbox" class="radio" value="6" name="fooby[6][]" /></label>
+            <label>Others:
+    <input type="checkbox" class="radio" value="6" name="fooby[6][]" /></label><br><br>
+            <label for="meet">15.No. of meetings upto date:</label>
+            <input type="text" placeholder="No. of meetings upto date" name="meet" optional><br><br>
+            <label for="gc">16.General Conduct:</label>
+            <input type="text" placeholder="General Conduct" name="gc" required><br><br>
+            <label for="remarks">17.Any other remarks:</label><br>
+            <textarea type="text" placeholder="Remarks here"></textarea><br><br>
+            <label for="date">18.Date of issue of Certificate:</label>
+            <input type="date" required>
+        </form><br>
+             <a href="checkoutnew.html"><button class="w3-button w3-aqua w3-padding-large w3-large w3-margin-top">Proceed</button></a>
+            </div>
+        </header>
+    <!--Enter your code here-->
+        <script>  
+$("input:checkbox").on('click', function() {
+  var $box = $(this);
+  if ($box.is(":checked")) {
+    var group = "input:checkbox[name='" + $box.attr("name") + "']";
+    $(group).prop("checked", false);
+    $box.prop("checked", true);
+  } else {
+    $box.prop("checked", false);
+  }
+});     
+           </script>
+    </body>
+</html>
